@@ -155,4 +155,4 @@
 -- and year between 2004 and  2006;
 
 -- 4.
--- select count(*) from movies where rating > 6 and rating<7;
+select count(*) as total_rating_6 from movies where rating = 6;
